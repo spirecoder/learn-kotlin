@@ -7,7 +7,7 @@ fun main(args: Array<String>) {
     var t2 = 1
     print("Upto $n: ")
     while (t1 <= n) {
-        print("$t1 + ")
+        print("$t1  ")
         val sum = t1 + t2
         t1 = t2
         t2 = sum
@@ -23,7 +23,7 @@ public class Fibonacci {
         System.out.print("First " + n + " terms: ");
         for (int i = 1; i <= n; ++i)
         {
-            System.out.print(t1 + " + ");
+            System.out.print(t1 + "  ");
             int sum = t1 + t2;
             t1 = t2;
             t2 = sum;
