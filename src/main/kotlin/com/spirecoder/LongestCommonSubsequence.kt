@@ -22,12 +22,11 @@ fun getLCSLength(s1: String, s2: String): Int {
 
 
 fun main(args: Array<String>) {
-    val lcs = LongestCommonSubsequence()
     val s1 = "SPIRECODER"
     val s2 = "QWCIOUYDER"
 
     println(
         "LCS length: " + " " +
-                lcs.getLCSLength(s1, s2)
+                getLCSLength(s1, s2)
     )
 }
