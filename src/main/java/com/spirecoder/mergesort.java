@@ -1,5 +1,15 @@
 package com.spirecoder;
 
+/**
+ * This sorting algorithm is basic among
+ * many languages. Here is the "Big O" 
+ * notation, in terms of performance
+ * and efficiency:
+ *
+ * Worst case: O(n log n)
+ *  Best case: O(n)
+ */
+
 class MergeSort 
 { 
 	// Merges two subarrays of arr[]. 
